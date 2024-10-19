@@ -7,7 +7,7 @@ module PRBS9 #(
     input                   i_enable,  //! Entrada de enable i_sw[0]
     input                   i_enable2, //! Entrada de enable del control
     output [NB_OUT - 1 : 0] o_PRBS9I,  //! Salida de la PRBS en fase (PRBS9I)
-    output [NB_OUT - 1 : 0] o_PRBS9Q  //! Salida de la PRBS en cuadratura (PRBS9Q)
+    output [NB_OUT - 1 : 0] o_PRBS9Q   //! Salida de la PRBS en cuadratura (PRBS9Q)
 );
 
 reg [NB_BITS - 1 : 0] PRBSI; //! Seed de la PRBS en fase
